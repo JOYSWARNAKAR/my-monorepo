@@ -20,6 +20,9 @@ importers:
 
   apps/blog:
     dependencies:
+      '@myapp/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
       react:
         specifier: ^19.2.7
         version: 19.2.7
